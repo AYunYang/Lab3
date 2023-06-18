@@ -9,5 +9,5 @@ def test_total_cost_of_shopping():
 
 def test_apple_cost_of_fruits():
 
-    result = price_info.cost_of_fruits('apple',10)
-    assert(result == 12)
+    result = price_info.cost_of_fruits('apple',20)
+    assert(result == 24)
